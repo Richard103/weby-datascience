@@ -130,3 +130,8 @@ footer a{
     margin: 0px auto;
     width: 960px;
 }
+
+#skills td {
+    width: 33%;
+    padding: 20px;
+}

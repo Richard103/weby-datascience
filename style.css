@@ -44,7 +44,7 @@ article {
 }
 
 article header {
-    width: 250px;
+    width: 180px;
     float: left;
 }
 
@@ -78,17 +78,24 @@ header{
 
 #logo{
     background: url("image/Logo_D_S_2_64x68.png")  no-repeat;
-    width: 242px;
+    width: 220px;
     height: 60px;
     float: left;
-    margin: 3px 0px 0px 10px;
+    margin: 5px 0px 0px 10px;
+/*    text-align: center;*/
+/*    font-weight: normal;*/
 }
 
 #logo h1{
-/*    position: 10px 1px 1px 5px;*/
-    margin: 10x 10px 10px 10px;
+    font-size: 1.7em;
+    padding: 2px 0 10px 20px;
+    margin:auto
+/*
+    position: 10px 1px 1px 5px;
+    
     text-align: center;
     font-weight: normal;
+*/
 }
 
 nav ul{
@@ -116,6 +123,7 @@ nav ul li:hover, .aktivni{
 }
 
 footer{
+    font-size: 12px;
     height: 40px;
     color: white;
     margin: 20px 0 0 30px;
@@ -131,7 +139,18 @@ footer a{
     width: 960px;
 }
 
+#skills {
+        border-collapse: collapse;
+}
+
 #skills td {
     width: 33%;
     padding: 20px;
+    vertical-align: top;
+    border: 1px solid gray;
+}
+
+#centred {
+    vertical-align: middle;
+    font: 14px Verdana;
 }
